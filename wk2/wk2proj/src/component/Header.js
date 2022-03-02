@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <View style={styles.header}>
         <Text style={styles.text}>
-          MY PICK
+          KESHI
         </Text>
       </View>
     );
@@ -13,14 +13,14 @@ const Header = () => {
 
 const styles = StyleSheet.create({
     header: {
-        backgroundColor: "#111111",
+        backgroundColor: "#2E231F",
         justifyContent: "center",
         alignItems: "center",
-        height: 80,
-        shadowColor: "#000",
-        shadowOffset: {width: 0, height: 1},
+        height: 60,
+        shadowColor: "#000000",
+        shadowOffset: {width: 0, height: 2},
         shadowOpacity: 0.5,
-        elevation: 8,
+        elevation: 50,
     },
     text: {
         fontSize: 20,

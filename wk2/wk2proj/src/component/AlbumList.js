@@ -1,7 +1,7 @@
 import React from "react";
 import { ScrollView, Text, View, Image } from "react-native";
 import AlbumDetail from "./AlbumDetail";
-import AlbumData from "../json/Album";
+import AlbumData from "../json/Album.json";
 
 const AlbumList = () => {
     return (

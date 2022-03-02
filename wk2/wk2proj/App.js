@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, StatusBar, SafeAreaView } from "react-native";
-import Header from "./scr/component/Header";
-import AlbumList from "./scr/component/AlbumList";
+import Header from "./src/component/Header";
+import AlbumList from "./src/component/AlbumList";
 
 const App = () => {
   return (
@@ -16,7 +16,8 @@ const App = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor:"black",
+    backgroundColor: "#66534E",
+    paddingBottom:50,
   },
 });
 
